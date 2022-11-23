@@ -1,0 +1,60 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="guest-form-card card">
+
+            <div class="card-header text-center">
+                <h2>Add New Product</h2>
+            </div>
+            <div class="card-body">
+                <form [formGroup]="addProductForm" (ngSubmit)="addProduct()">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input
+                         id="name"
+                         class="form-control"
+                         [ngClass]="{ 'is-invalid': addProductForm.get('name')?.touched && addProductForm.get('name')?.invalid }"
+                         formControlName="name"
+                         required
+                         />
+                         <span class="invalid-feedback">Name can't be blank.</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="price">Price</label>
+                        <input
+                        id="price"
+                        class="form-control"
+                        [ngClass]="{ 'is-invalid': addProductForm.get('price')?.touched && addProductForm.get('price')?.invalid }"
+                        formControlName="price"
+                        required
+                        />
+                        <span class="invalid-feedback">Price can't be blank.</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="desc">Description</label>
+                        <input
+                        id="desc"
+                        class="form-control"
+                        [ngClass]="{ 'is-invalid': addProductForm.get('description')?.touched && addProductForm.get('description')?.invalid }"
+                        formControlName="description"
+                        required
+                        />
+                        <span class="invalid-feedback">Description can't be blank.</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="imageUrl">Image Url</label>
+                        <input
+                        id="imageUrl"
+                        class="form-control"
+                        formControlName="imageUrl"
+                        />
+                    </div>
+
+                    <button disabled="addProductForm.invalid" class="btn btn-primary form-control mt-1">Add product</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

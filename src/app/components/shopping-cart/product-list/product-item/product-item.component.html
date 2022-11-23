@@ -1,0 +1,27 @@
+<div class="card shadow-sm">
+  <div class="d-flex justify-content-end  p-2"  >
+    <i *ngIf="addedToWishlist" class="fas fa-heart float-right" (click)="handleRemoveFromWishlist()"></i>
+    <i *ngIf="!addedToWishlist" class="far fa-heart float-right" (click)="handleAddToWishlist()"></i>
+  </div>
+    <img class="bd-placeholder-img card-img-top" width="100%" [src]="productItem.imageUrl">
+
+    <div class="card-body">
+        <!-- <div class="row">
+            <p class="cart-text col-md-7 product-name">Rubikova kocka</p>
+            <p class="cart-text col-md-5">
+                <strong>{{ 254 | currency:'EUR'}}</strong>
+            </p>
+        </div> -->
+        <div class="d-flex flex-row justify-content-between">
+          <div>{{ productItem.name}} </div>
+          <p class="ml-3"> <strong>{{ productItem.price | currency:'EUR'}}</strong></p>
+        </div>
+      <p class="card-text">{{ productItem.description | slice: 0:50}}</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-primary product-btn" (click)="handleAddToCart()">
+          Add To Cart</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary product-btn">View Details</button>
+        </div>
+    </div>
+</div>

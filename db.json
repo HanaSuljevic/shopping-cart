@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "name": "hana",
+      "email": "hana.su95@gmail.com",
+      "username": "hana123",
+      "password": "test1@",
+      "confirmPassword": "test1@",
+      "id": 404
+    },
+    {
+      "name": "sadsa",
+      "email": "sadsa@asda",
+      "username": "1234",
+      "password": "opet@",
+      "confirmPassword": "",
+      "id": 114
+    },
+    {
+      "name": "haris",
+      "email": "harix@hotmail.com",
+      "username": "harisb",
+      "password": "hana",
+      "confirmPassword": "hana",
+      "id": 177
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Block Cube Puzzle",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+      "imageUrl": "https://cf.shopee.ph/file/65a4798e40c0536b9950cadaf500a9cc",
+      "price": 299
+    },
+    {
+      "id": 2,
+      "name": "Toniebox",
+      "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "imageUrl": "https://pyxis.nymag.com/v1/imgs/69e/c9c/88229a3b122896171c08fffeff8eda3ab4-10-toy-lede.rsquare.w700.jpg",
+      "price": 199
+    },
+    {
+      "id": 3,
+      "name": "Block Cube Puzzle",
+      "description": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+      "imageUrl": "https://m.media-amazon.com/images/I/81MhitRI10L._AC_SL1500_.jpg",
+      "price": 399
+    },
+    {
+      "id": 4,
+      "name": "Coil Spring",
+      "description": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. ",
+      "imageUrl": "https://cf.shopee.ph/file/65a4798e40c0536b9950cadaf500a9cc",
+      "price": 99
+    },
+    {
+      "id": 5,
+      "name": "Wooden stacking toy",
+      "description": "The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0067/8179/6450/products/wooden_stacking_toy.png?v=1575875237",
+      "price": 499
+    }
+  ],
+  "wishlist": [],
+  "cart": [
+    {
+      "product": {
+        "id": 3,
+        "name": "Block Cube Puzzle",
+        "description": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+        "imageUrl": "https://m.media-amazon.com/images/I/81MhitRI10L._AC_SL1500_.jpg",
+        "price": 399
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Block Cube Puzzle",
+        "description": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+        "imageUrl": "https://m.media-amazon.com/images/I/81MhitRI10L._AC_SL1500_.jpg",
+        "price": 399
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toniebox",
+        "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "imageUrl": "https://pyxis.nymag.com/v1/imgs/69e/c9c/88229a3b122896171c08fffeff8eda3ab4-10-toy-lede.rsquare.w700.jpg",
+        "price": 199
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toniebox",
+        "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "imageUrl": "https://pyxis.nymag.com/v1/imgs/69e/c9c/88229a3b122896171c08fffeff8eda3ab4-10-toy-lede.rsquare.w700.jpg",
+        "price": 199
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toniebox",
+        "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "imageUrl": "https://pyxis.nymag.com/v1/imgs/69e/c9c/88229a3b122896171c08fffeff8eda3ab4-10-toy-lede.rsquare.w700.jpg",
+        "price": 199
+      },
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
